@@ -1,0 +1,11 @@
+@keyframes coloranimated{
+    from{ background-color: yellow;}
+    to {background-color: red;}
+}
+div{
+    animation-name: coloranimated;
+    animation-duration: 0.25s;
+
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
